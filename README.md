@@ -16,7 +16,7 @@ Mais :
 
 ## mémo commandes
 
-### docker
+### docker
 
 ```bash
 docker compose up -d
@@ -25,7 +25,7 @@ docker compose up -d
 docker compose exec terraform sh
 ```
 
-### terraform
+### terraform
 
 ```bash
 cd /workspace/exercice_1
