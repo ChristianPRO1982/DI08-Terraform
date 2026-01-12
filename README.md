@@ -18,13 +18,21 @@ Mais :
 
 ```bash
 docker compose up -d
+```
+```bash
 docker compose exec terraform sh
 ```
 
 ```bash
 cd /workspace/exercice_1
+```
+```bash
 terraform init
+```
+```bash
 terraform plan
+```
+```bash
 terraform apply
 ```
 
