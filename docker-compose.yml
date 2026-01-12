@@ -4,6 +4,6 @@ services:
     container_name: terraform
     working_dir: /workspace
     volumes:
-      - ./terraform:/workspace
+      - ./:/workspace
     entrypoint: ["/bin/sh"]
     tty: true
