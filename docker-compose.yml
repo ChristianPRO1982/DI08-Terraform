@@ -1,0 +1,9 @@
+services:
+  terraform:
+    image: hashicorp/terraform:1.6
+    container_name: terraform
+    working_dir: /workspace
+    volumes:
+      - ./terraform:/workspace
+    entrypoint: ["/bin/sh"]
+    tty: true
