@@ -16,7 +16,7 @@ Mais :
 
 ### Terraform = 4 briques, pas plus
 
-> Tout le cours tourne autour de ça (cf. pages 18–19, 29–31) 
+> Tout le cours tourne autour de ça (cf. pages 18–19, 29–31)[https://github.com/ChristianPRO1982/DI08-Terraform/blob/main/Intro%20Terraform.pdf]
 
 1. Provider
 
