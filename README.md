@@ -40,7 +40,7 @@ terraform plan
 terraform apply
 ```
 
-### Azure
+### Azure à l'extérieur du docker
 
 connexion :
 ```bash
@@ -55,6 +55,13 @@ az account show
 quels abonnements sont liés à mon compte :
 ```bash
 az account list --output table
+```
+
+### Azure à l'intérieur du docker
+
+pour que docker utilise le login Azure :
+```bash
+az login --use-device-code
 ```
 
 ## cours
