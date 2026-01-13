@@ -1,0 +1,6 @@
+resource_group_name      = "cmartinyRG"
+location                 = "francecentral"
+name_prefix              = "datacorp-brief"
+vm_admin_ssh_public_key  = "ssh-rsa AAAA..."
+storage_container_name   = "raw"
+webapp_sku_name          = "B1"
