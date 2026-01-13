@@ -31,3 +31,9 @@ variable "resource_group_name" {
   type        = string
   description = "Existing Azure Resource Group name"
 }
+
+variable "storage_container_name" {
+  type        = string
+  description = "Blob container name"
+  default     = "raw"
+}
