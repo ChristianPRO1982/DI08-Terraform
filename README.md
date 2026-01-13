@@ -40,6 +40,22 @@ terraform plan
 terraform apply
 ```
 
+### Azure
+
+connexion :
+```bash
+az login
+```
+
+savoir si on est connecté :
+```bash
+az account show
+```
+
+quels abonnements sont liés à mon compte :
+```bash
+az account list --output table
+```
 
 ## cours
 
