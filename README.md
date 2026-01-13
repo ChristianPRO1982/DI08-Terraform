@@ -120,6 +120,29 @@ terraform apply :
 
 **Analogie :** COMMIT
 
+### Mémo terminologie
+
+`known after apply` = *“je ne peux pas le savoir tant que ce n’est pas réellement créé”*
+
+### Bonnes pratiques
+
+En général :
+* `terraform.tfvars` → local / non versionné
+* `*.tfvars.example` → versionné
+* variables sensibles → via CI/CD ou vault
+
+1️⃣ Séparer le code et les valeurs
+* .tf → logique Terraform
+* .tfvars → configuration
+
+2️⃣ Éviter les erreurs humaines
+
+“.tfvars permet de mettre dans un fichier les variables au lieu de les mettre dans une commande lancée à la main.”
+
+3️⃣ Gérer plusieurs environnements
+
+exemple : `prod.tfvars`
+
 ### à quoi sert le state (`terraform.tfstate`)
 
 Le state :
