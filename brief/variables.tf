@@ -37,3 +37,9 @@ variable "storage_container_name" {
   description = "Blob container name"
   default     = "raw"
 }
+
+variable "webapp_sku_name" {
+  type        = string
+  description = "App Service Plan SKU"
+  default     = "F1"
+}
