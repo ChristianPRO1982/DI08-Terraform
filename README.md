@@ -120,11 +120,11 @@ terraform apply :
 
 **Analogie :** COMMIT
 
-### Mémo terminologie
+## Mémo terminologie
 
 `known after apply` = *“je ne peux pas le savoir tant que ce n’est pas réellement créé”*
 
-### Bonnes pratiques
+## Bonnes pratiques
 
 En général :
 * `terraform.tfvars` → local / non versionné
@@ -142,6 +142,8 @@ En général :
 3️⃣ Gérer plusieurs environnements
 
 exemple : `prod.tfvars`
+
+## suite du cours
 
 ### à quoi sert le state (`terraform.tfstate`)
 
