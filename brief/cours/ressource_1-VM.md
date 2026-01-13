@@ -1,0 +1,6 @@
+Ce qu’on met dans chaque fichier (mini mémo)
+* `brief/providers.tf` : versions Terraform + provider Azure (azurerm)
+* `brief/variables.tf` : variables “root” (paramètres du projet)
+* `brief/main.tf` : appelle les modules (pour l’instant module vm uniquement)
+* `brief/outputs.tf` : ce que tu veux récupérer facilement après `apply` (IP, noms, etc.)
+* `brief/modules/vm/*` : module autonome qui crée tout ce dont la VM a besoin (RG, réseau, NIC, IP, VM)
