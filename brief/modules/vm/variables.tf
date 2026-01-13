@@ -22,3 +22,8 @@ variable "admin_ssh_public_key" {
   type        = string
   description = "SSH public key for the admin user"
 }
+
+variable "resource_group_name" {
+  type        = string
+  description = "Existing Azure Resource Group name"
+}

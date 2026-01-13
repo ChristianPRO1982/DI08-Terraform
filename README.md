@@ -149,7 +149,7 @@ terraform apply :
 
 ## Bonnes pratiques
 
-En général :
+### En général :
 * `terraform.tfvars` → local / non versionné
 * `*.tfvars.example` → versionné
 * variables sensibles → via CI/CD ou vault
@@ -165,6 +165,13 @@ En général :
 3️⃣ Gérer plusieurs environnements
 
 exemple : `prod.tfvars`
+
+### pourquoi ne pas partagé les credentials de l'hôte avec son environnement docker
+> *Le partage automatique de credentials entre environnements ou outils casse l’isolation des contextes et augmente fortement le risque d’erreurs ou d’incidents en production.*
+
+il faut :
+* 1️⃣ Séparation DEV / PROD
+* 2️⃣ Séparation des responsabilités (RBAC)
 
 ## suite du cours
 

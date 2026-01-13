@@ -26,3 +26,8 @@ variable "vm_admin_ssh_public_key" {
   type        = string
   description = "SSH public key used to connect to the VM"
 }
+
+variable "resource_group_name" {
+  type        = string
+  description = "Existing Azure Resource Group name"
+}
